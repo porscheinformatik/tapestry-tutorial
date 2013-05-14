@@ -1,0 +1,10 @@
+<t:container xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" xmlns:p="tapestry:parameter">
+
+	<p>update with Ajax</p>
+	<!-- one zone for the buttons -->
+	<div t:id="buttonZone">
+		<a t:id="increaseAjax" class="btn">+</a>
+		<a t:id="decreaseAjax" class="btn">-</a>
+	</div>
+
+</t:container>

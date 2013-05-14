@@ -1,0 +1,38 @@
+<t:layout t:id="layout" xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" xmlns:p="tapestry:parameter">
+  
+  	<ul>
+  		<li>Page Navigation</li>
+  		<li>
+  			<ul>
+  				<li><a t:id="activatePassivateLink">Activate/Passivate</a></li>
+  				<li><a t:id="activatePassivateLinkWithContext">Activate/Passivate with context</a></li>
+  				<li><a t:id="resultProcessor">Result Processors</a></li>
+  			</ul>
+  		</li>
+  		<li>Form Handling</li>
+  		<li>
+  			<ul>
+  				<li><a t:id="formHandlingPageRefresh">Form Handling Page Refresh</a></li>
+  				<li><a t:id="formHandlingDiscard">Form Handling Discard</a></li>
+  				<li><a t:id="formHandlingSessionState">Form Handling Session State</a></li>
+  			</ul>
+  		</li>
+  		<li>Zone Handling</li>
+  		<li>
+  			<ul>
+  				<li><a t:id="zoneHandlingNormal">Zone Handling Normal</a></li>
+  				<li><a t:id="zoneHandlingAjaxResponseRenderer">Zone Handling AjaxResponseRenderer</a></li>
+  				<li><a t:id="formHandlingZoneRefresh">Form Handling Zone Refresh</a></li>
+  			</ul>
+  		</li>
+  		<li><a href="http://crjava01e/crossng-ui-demo" target="new">POI Components/CROSS NG Components</a></li>
+  		<li>
+  			<ul>
+  				<li>Dialog</li>
+  				<li>Grids</li>
+  			</ul>
+  		</li>
+  	</ul>
+  
+</t:layout>

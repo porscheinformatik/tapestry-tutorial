@@ -1,0 +1,20 @@
+<t:container xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" xmlns:p="tapestry:parameter">
+
+	<p>The content of the current session is</p>
+	
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Attribute</th>
+				<th>Value</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr t:id="attributes">
+				<td>${currentAttribute}</td>
+				<td>${currentAttributeValue}</td>
+			</tr>
+		</tbody>
+	</table>
+
+</t:container>

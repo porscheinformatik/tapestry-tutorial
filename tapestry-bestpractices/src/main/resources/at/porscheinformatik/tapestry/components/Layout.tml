@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+	<head>
+		<title>Tapestry Best Practices</title>
+	</head>
+	
+	<body>
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="brand" t:id="home">Tapestry Best Practices</a>
+				</div>
+			</div>
+		</div>
+		<div class="container" style="padding-top:60px">
+			<t:body />
+		</div>
+	</body>
+</html>

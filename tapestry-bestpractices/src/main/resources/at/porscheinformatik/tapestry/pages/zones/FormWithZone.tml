@@ -1,0 +1,24 @@
+<t:layout t:id="layout" xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" xmlns:p="tapestry:parameter">
+  
+	<h2>Demonstration of the form handling with a zone</h2>
+	
+	<div t:id="formZone">
+		<form t:id="form">
+			<div t:id="errors"/>
+			<label for="input"/>
+			<input t:id="input" />
+			<div>
+				<a t:id="save" class="btn btn-primary">Save</a>
+			</div>
+		</form>
+	</div>
+	
+	
+	<div t:id="gridZone">
+		<table t:id="dataGrid" class="table"/>
+	</div>
+	
+	<div t:id="sessionComponent"/>
+	
+</t:layout>

@@ -1,0 +1,19 @@
+<t:layout t:id="layout" xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" xmlns:p="tapestry:parameter">
+  
+	<h2>Saves the object to the database - but the clean up must be done manually</h2>
+	
+	<form t:id="form">
+		<div t:id="errors"/>
+		<label for="input"/>
+		<input t:id="input" />
+		<div>
+			<a t:id="save" class="btn btn-primary">Save</a>
+		</div>
+	</form>
+	
+	<div t:id="sessionComponent"/>
+	
+	<table t:id="dataGrid" class="table"/>
+	
+</t:layout>

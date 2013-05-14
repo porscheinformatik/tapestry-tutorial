@@ -1,0 +1,13 @@
+<t:layout t:id="layout" xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" xmlns:p="tapestry:parameter">
+  
+	<h2>Page Result Processing</h2>
+
+	<table t:id="vehicleBusinessPartnerGrid">
+		<p:idCell>
+			<a t:id="jumpToObjectDetail">${currentResult.id}</a>
+		</p:idCell>
+	</table>
+		
+	
+</t:layout>
